@@ -18,7 +18,7 @@ Cada verbo tem uma função específica na interação entre clientes e servidor
 
 - GET: Obtém dados de um recurso.
 - POST: Envia dados para criar um novo recurso.
--  PUT: Atualiza ou cria um recurso.
+- PUT: Atualiza ou cria um recurso.
 - DELETE: Remove um recurso.
 - PATCH: Aplica modificações parciais a um recurso.
 - HEAD: Obtém apenas os cabeçalhos de um recurso.
@@ -31,15 +31,16 @@ Cada verbo tem uma função específica na interação entre clientes e servidor
 Os códigos de status HTTP são números de três dígitos que indicam o resultado de uma solicitação HTTP. Eles informam sobre o sucesso, redirecionamento, erros do cliente ou erros do servidor. Por exemplo:
 
 - 1xx (Informational): A solicitação foi recebida, continua o processo e que o cliente deve aguardar.
+    - 
 
 - 2xx (Successful): A solicitação foi recebida, entendida e aceita com sucesso.
-    200 OK: A solicitação foi bem-sucedida.
+    - 200 OK: A solicitação foi bem-sucedida.
 
 - 3xx (Redirection): A solicitação precisa de ações adicionais para ser completada.
-    302 Found: Recurso encontrado temporariamente em uma nova localização.
+    - 302 Found: Recurso encontrado temporariamente em uma nova localização.
 
 - 4xx (Client Error): Indica que ocorreu um erro por parte do cliente.
-    404 Not Found: O recurso solicitado não foi encontrado no servidor.
+    - 404 Not Found: O recurso solicitado não foi encontrado no servidor.
 
 ---
 
